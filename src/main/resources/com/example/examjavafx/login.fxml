@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examjavafx.LoginController">
+   <children>
+      <Label layoutX="86.0" layoutY="127.0" text="Full Name:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="176.0" text="Email ID:" />
+      <Label layoutX="83.0" layoutY="219.0" text="Password:" />
+      <TextField fx:id="fullNameText" layoutX="169.0" layoutY="123.0" prefHeight="26.0" prefWidth="333.0" />
+      <TextField fx:id="emailIDText" layoutX="169.0" layoutY="172.0" prefHeight="26.0" prefWidth="334.0" />
+      <PasswordField fx:id="passwordText" layoutX="169.0" layoutY="215.0" prefHeight="26.0" prefWidth="334.0" />
+      <Label layoutX="192.0" layoutY="60.0" prefHeight="35.0" prefWidth="205.0" text="Registration Form" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitButton" layoutX="264.0" layoutY="265.0" mnemonicParsing="false" onAction="#onSubmitButtonClick" prefHeight="35.0" prefWidth="61.0" style="-fx-background-color: #ADD8E6;" text="Submit" />
+      <Label fx:id="promptText" layoutX="188.0" layoutY="32.0" prefHeight="27.0" prefWidth="242.0" textFill="#c10000">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
